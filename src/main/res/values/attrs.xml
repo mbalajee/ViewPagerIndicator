@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagerIndicator">
+        <attr name="colorSelected" format="boolean" />
+        <attr name="colorDeselected" format="color"/>
+        <attr name="sizeSelected" format="dimension"/>
+        <attr name="sizeDeselected" format="dimension"/>
+        <attr name="gap" format="dimension"/>
+        <attr name="shape" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="square" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
