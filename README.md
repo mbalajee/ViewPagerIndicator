@@ -1,13 +1,14 @@
 # ViewPagerIndicator
 Android View pager position indicator with different built in shapes.
  
-
-Usage:
-
+ ### Installing
 Include this project as a module.  
 
-// XML 
 
+#### Usage
+
+```
+// XML 
 <com.company.androidviewpagerindicaor.ViewPagerIndicator
 android:id="@+id/viewPagerIndicator"
 android:layout_width="wrap_content" 
@@ -20,9 +21,15 @@ app:sizeDeselected="10dp"
 app:gap="8dp"
 app:shape="circle"
 android:layout_marginBottom="8dp"/>
+```
 
-
+```
 // Activity
-
 ViewPagerIndicator pagerIndicator = findViewById(R.id.viewPagerIndicator);
 pagerIndicator.attachToViewPager(viewPager);  //viewPager replace with your ViewPager
+
+
+
+
+
+
