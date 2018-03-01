@@ -9,9 +9,9 @@ Include this project as a module.
 // XML
 <com.company.androidviewpagerindicaor.ViewPagerIndicator
     android:id="@+id/viewPagerIndicator"
-    android:layout_width="wrap_content"
+    android:layout_width="wrap_content" 
     android:layout_height="wrap_content"
-    android:layout_gravity="bottom|end"
+    android:layout_gravity="bottom|end" 
     app:colorSelected="@color/colorAccent"
     app:colorDeselected="@color/colorAccentLight"
     app:sizeSelected="10dp"
