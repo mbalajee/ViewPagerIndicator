@@ -7,6 +7,7 @@ Usage:
 Include this project as a module.  
 
 // XML
+
 <com.company.androidviewpagerindicaor.ViewPagerIndicator
     android:id="@+id/viewPagerIndicator"
     android:layout_width="wrap_content" 
@@ -21,6 +22,8 @@ Include this project as a module.
     android:layout_marginBottom="8dp"/>
 
 
+
 // Activity
+
 ViewPagerIndicator pagerIndicator = findViewById(R.id.viewPagerIndicator);
 pagerIndicator.attachToViewPager(viewPager);  //viewPager replace with your ViewPager
