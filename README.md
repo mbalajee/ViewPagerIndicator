@@ -18,7 +18,7 @@ app:colorDeselected="@color/colorAccentLight"
 app:sizeSelected="10dp"
 app:sizeDeselected="10dp"
 app:gap="8dp"
-app:shape="circle"  // "square"
+app:shape="circle"
 android:layout_marginBottom="8dp"/>
 
 
