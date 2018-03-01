@@ -1,6 +1,6 @@
 # ViewPagerIndicator
 Android View pager position indicator with different built in shapes.
-
+ 
 
 Usage:
 
