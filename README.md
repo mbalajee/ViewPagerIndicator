@@ -6,7 +6,7 @@ Usage:
 
 Include this project as a module.  
 
-// XML
+// XML 
 
 <com.company.androidviewpagerindicaor.ViewPagerIndicator
 android:id="@+id/viewPagerIndicator"
