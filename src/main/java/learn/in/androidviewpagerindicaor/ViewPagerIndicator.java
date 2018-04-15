@@ -6,6 +6,7 @@ import android.database.DataSetObserver;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
+import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.annotation.Nullable;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -201,7 +202,7 @@ public class ViewPagerIndicator extends LinearLayout {
         if (mShape == SHAPE_CIRCLE) {
             Drawable drawable = getResources().getDrawable(R.drawable.drawable_default_shape_circle);
             indicator.setBackground(drawable);
-            ((GradientDrawable) drawable).setColor(color);
+            DrawableCompat.setTint(drawable, color);
         } else {
             indicator.setBackgroundColor(color);
         }
